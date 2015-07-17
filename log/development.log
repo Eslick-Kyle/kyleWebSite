@@ -22984,3 +22984,827 @@ Processing by PhotographyController#index as HTML
   [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
   Rendered layouts/_nav.html.erb (2.0ms)
 Completed 200 OK in 140ms (Views: 139.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/photography/index" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+Processing by PhotographyController#index as HTML
+  Rendered photography/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (2.6ms)
+Completed 200 OK in 141ms (Views: 139.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/customCSS.css?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/code.css?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/photography.css?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/code.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/photography.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/photos/shane1.jpg" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/photos/shane2.jpg" for 127.0.0.1 at 2015-07-16 21:19:29 -0700
+
+
+Started GET "/assets/photos/window.jpg" for 127.0.0.1 at 2015-07-16 21:19:30 -0700
+
+
+Started GET "/assets/photos/shane3.jpg" for 127.0.0.1 at 2015-07-16 21:19:30 -0700
+
+
+Started GET "/assets/photos/shane5.jpg" for 127.0.0.1 at 2015-07-16 21:19:30 -0700
+
+
+Started GET "/assets/photos/ring.jpg" for 127.0.0.1 at 2015-07-16 21:19:30 -0700
+
+
+Started GET "/assets/photos/shane4.jpg" for 127.0.0.1 at 2015-07-16 21:19:30 -0700
+
+
+Started GET "/assets/photos/xp.jpg" for 127.0.0.1 at 2015-07-16 21:19:30 -0700
+
+
+Started GET "/assets/photos/waterfall.jpg" for 127.0.0.1 at 2015-07-16 21:19:30 -0700
+
+
+Started GET "/assets/photos/chuck.jpg" for 127.0.0.1 at 2015-07-16 21:19:30 -0700
+
+
+Started GET "/assets/photos/kitten.jpg" for 127.0.0.1 at 2015-07-16 21:19:30 -0700
+
+
+Started GET "/assets/photos/flower.jpg" for 127.0.0.1 at 2015-07-16 21:19:30 -0700
+
+
+Started GET "/assets/photos/fence.jpg" for 127.0.0.1 at 2015-07-16 21:19:30 -0700
+
+
+Started GET "/assets/photos/teton.jpg" for 127.0.0.1 at 2015-07-16 21:19:30 -0700
+
+
+Started GET "/assets/photos/sculpture.jpg" for 127.0.0.1 at 2015-07-16 21:19:30 -0700
+
+
+Started GET "/assets/photos/art.jpg" for 127.0.0.1 at 2015-07-16 21:19:30 -0700
+
+
+Started GET "/assets/photos/bridge.jpg" for 127.0.0.1 at 2015-07-16 21:19:30 -0700
+
+
+Started GET "/assets/photos/bros.jpg" for 127.0.0.1 at 2015-07-16 21:19:30 -0700
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-07-16 21:20:33 -0700
+
+
+Started GET "/code/index" for 127.0.0.1 at 2015-07-16 21:24:01 -0700
+Processing by CodeController#index as HTML
+  Rendered code/index.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (2.0ms)
+Completed 200 OK in 133ms (Views: 132.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/capandtrade.jpg" for 127.0.0.1 at 2015-07-16 21:24:01 -0700
+
+
+Started GET "/assets/addressbook.jpg" for 127.0.0.1 at 2015-07-16 21:24:01 -0700
+
+
+Started GET "/assets/journal.jpg" for 127.0.0.1 at 2015-07-16 21:24:01 -0700
+
+
+Started GET "/about/index" for 127.0.0.1 at 2015-07-16 21:24:02 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (2.2ms)
+Completed 200 OK in 141ms (Views: 139.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/profile.jpg" for 127.0.0.1 at 2015-07-16 21:24:02 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-16 21:24:19 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 136ms (Views: 135.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 137ms (Views: 135.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/code.css?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/customCSS.css?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/photography.css?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/code.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/photography.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:32 -0700
+
+
+Started GET "/about/index" for 127.0.0.1 at 2015-07-16 21:26:34 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 133ms (Views: 131.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/profile.jpg" for 127.0.0.1 at 2015-07-16 21:26:34 -0700
+
+
+Started GET "/about/index" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (2.3ms)
+Completed 200 OK in 134ms (Views: 132.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/code.css?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/photography.css?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/customCSS.css?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/code.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/photography.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/assets/profile.jpg" for 127.0.0.1 at 2015-07-16 21:26:47 -0700
+
+
+Started GET "/code/index" for 127.0.0.1 at 2015-07-16 21:26:48 -0700
+Processing by CodeController#index as HTML
+  Rendered code/index.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 141ms (Views: 139.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/capandtrade.jpg" for 127.0.0.1 at 2015-07-16 21:26:48 -0700
+
+
+Started GET "/assets/journal.jpg" for 127.0.0.1 at 2015-07-16 21:26:48 -0700
+
+
+Started GET "/assets/addressbook.jpg" for 127.0.0.1 at 2015-07-16 21:26:48 -0700
+
+
+Started GET "/about/index" for 127.0.0.1 at 2015-07-16 21:26:53 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (2.0ms)
+Completed 200 OK in 135ms (Views: 134.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-16 21:26:54 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 134ms (Views: 133.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/code/index" for 127.0.0.1 at 2015-07-16 21:26:54 -0700
+Processing by CodeController#index as HTML
+  Rendered code/index.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (2.5ms)
+Completed 200 OK in 152ms (Views: 151.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/photography/index" for 127.0.0.1 at 2015-07-16 21:26:55 -0700
+Processing by PhotographyController#index as HTML
+  Rendered photography/index.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 150ms (Views: 149.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/photos/shane2.jpg" for 127.0.0.1 at 2015-07-16 21:26:55 -0700
+
+
+Started GET "/assets/photos/shane1.jpg" for 127.0.0.1 at 2015-07-16 21:26:55 -0700
+
+
+Started GET "/assets/photos/shane5.jpg" for 127.0.0.1 at 2015-07-16 21:26:55 -0700
+
+
+Started GET "/assets/photos/teton.jpg" for 127.0.0.1 at 2015-07-16 21:26:55 -0700
+
+
+Started GET "/assets/photos/window.jpg" for 127.0.0.1 at 2015-07-16 21:26:55 -0700
+
+
+Started GET "/assets/photos/shane4.jpg" for 127.0.0.1 at 2015-07-16 21:26:55 -0700
+
+
+Started GET "/assets/photos/shane3.jpg" for 127.0.0.1 at 2015-07-16 21:26:55 -0700
+
+
+Started GET "/assets/photos/xp.jpg" for 127.0.0.1 at 2015-07-16 21:26:55 -0700
+
+
+Started GET "/assets/photos/kitten.jpg" for 127.0.0.1 at 2015-07-16 21:26:55 -0700
+
+
+Started GET "/assets/photos/bros.jpg" for 127.0.0.1 at 2015-07-16 21:26:55 -0700
+
+
+Started GET "/assets/photos/waterfall.jpg" for 127.0.0.1 at 2015-07-16 21:26:55 -0700
+
+
+Started GET "/assets/photos/flower.jpg" for 127.0.0.1 at 2015-07-16 21:26:55 -0700
+
+
+Started GET "/assets/photos/ring.jpg" for 127.0.0.1 at 2015-07-16 21:26:55 -0700
+
+
+Started GET "/assets/photos/chuck.jpg" for 127.0.0.1 at 2015-07-16 21:26:55 -0700
+
+
+Started GET "/assets/photos/art.jpg" for 127.0.0.1 at 2015-07-16 21:26:55 -0700
+
+
+Started GET "/assets/photos/fence.jpg" for 127.0.0.1 at 2015-07-16 21:26:55 -0700
+
+
+Started GET "/assets/photos/bridge.jpg" for 127.0.0.1 at 2015-07-16 21:26:55 -0700
+
+
+Started GET "/assets/photos/sculpture.jpg" for 127.0.0.1 at 2015-07-16 21:26:55 -0700
+
+
+Started GET "/contact/index" for 127.0.0.1 at 2015-07-16 21:27:06 -0700
+Processing by ContactController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered contact/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.8ms)
+Completed 200 OK in 125ms (Views: 123.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/photography/index" for 127.0.0.1 at 2015-07-16 21:27:07 -0700
+Processing by PhotographyController#index as HTML
+  Rendered photography/index.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (2.0ms)
+Completed 200 OK in 131ms (Views: 130.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/contact/index" for 127.0.0.1 at 2015-07-16 21:27:09 -0700
+Processing by ContactController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered contact/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.8ms)
+Completed 200 OK in 137ms (Views: 135.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/photography/index" for 127.0.0.1 at 2015-07-16 21:27:09 -0700
+Processing by PhotographyController#index as HTML
+  Rendered photography/index.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 131ms (Views: 130.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/code/index" for 127.0.0.1 at 2015-07-16 21:27:10 -0700
+Processing by CodeController#index as HTML
+  Rendered code/index.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (2.0ms)
+Completed 200 OK in 123ms (Views: 122.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/photography/index" for 127.0.0.1 at 2015-07-16 21:27:11 -0700
+Processing by PhotographyController#index as HTML
+  Rendered photography/index.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 131ms (Views: 129.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-16 21:27:14 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (2.2ms)
+Completed 200 OK in 125ms (Views: 123.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2015-07-16 21:27:15 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (2.2ms)
+Completed 200 OK in 128ms (Views: 127.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/code/index" for 127.0.0.1 at 2015-07-16 21:27:16 -0700
+Processing by CodeController#index as HTML
+  Rendered code/index.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 126ms (Views: 125.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/photography/index" for 127.0.0.1 at 2015-07-16 21:27:18 -0700
+Processing by PhotographyController#index as HTML
+  Rendered photography/index.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (2.0ms)
+Completed 200 OK in 213ms (Views: 211.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/code/index" for 127.0.0.1 at 2015-07-16 21:27:41 -0700
+Processing by CodeController#index as HTML
+  Rendered code/index.html.erb within layouts/application (1.3ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 130ms (Views: 128.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2015-07-16 21:27:43 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (1.8ms)
+Completed 200 OK in 120ms (Views: 118.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/code/index" for 127.0.0.1 at 2015-07-16 21:27:44 -0700
+Processing by CodeController#index as HTML
+  Rendered code/index.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 122ms (Views: 121.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/photography/index" for 127.0.0.1 at 2015-07-16 21:27:44 -0700
+Processing by PhotographyController#index as HTML
+  Rendered photography/index.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 164ms (Views: 163.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/photography/index" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+Processing by PhotographyController#index as HTML
+  Rendered photography/index.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 135ms (Views: 133.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/code.css?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/customCSS.css?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/photography.css?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/code.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/photography.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/photos/shane1.jpg" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/photos/shane3.jpg" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/photos/shane4.jpg" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/photos/window.jpg" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/photos/shane2.jpg" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/photos/ring.jpg" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/photos/shane5.jpg" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/photos/xp.jpg" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/photos/kitten.jpg" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/photos/flower.jpg" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/photos/art.jpg" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/photos/bridge.jpg" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/photos/teton.jpg" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/photos/bros.jpg" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/photos/waterfall.jpg" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/photos/sculpture.jpg" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/photos/fence.jpg" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/assets/photos/chuck.jpg" for 127.0.0.1 at 2015-07-16 21:28:04 -0700
+
+
+Started GET "/about/index" for 127.0.0.1 at 2015-07-16 21:28:08 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 118ms (Views: 116.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/profile.jpg" for 127.0.0.1 at 2015-07-16 21:28:08 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-16 21:28:10 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (2.0ms)
+Completed 200 OK in 114ms (Views: 112.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/code/index" for 127.0.0.1 at 2015-07-16 21:28:11 -0700
+Processing by CodeController#index as HTML
+  Rendered code/index.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (2.0ms)
+Completed 200 OK in 156ms (Views: 155.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/journal.jpg" for 127.0.0.1 at 2015-07-16 21:28:11 -0700
+
+
+Started GET "/assets/addressbook.jpg" for 127.0.0.1 at 2015-07-16 21:28:11 -0700
+
+
+Started GET "/assets/capandtrade.jpg" for 127.0.0.1 at 2015-07-16 21:28:11 -0700
+
+
+Started GET "/about/index" for 127.0.0.1 at 2015-07-16 21:28:12 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (2.0ms)
+Completed 200 OK in 126ms (Views: 125.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/code/index" for 127.0.0.1 at 2015-07-16 21:28:15 -0700
+Processing by CodeController#index as HTML
+  Rendered code/index.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (2.0ms)
+Completed 200 OK in 115ms (Views: 114.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/photography/index" for 127.0.0.1 at 2015-07-16 21:28:16 -0700
+Processing by PhotographyController#index as HTML
+  Rendered photography/index.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 114ms (Views: 113.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/contact/index" for 127.0.0.1 at 2015-07-16 21:28:17 -0700
+Processing by ContactController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered contact/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.9ms)
+Completed 200 OK in 155ms (Views: 153.2ms | ActiveRecord: 0.4ms)
