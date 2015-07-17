@@ -38,9 +38,16 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Authentication gem
 gem 'devise'
+
+#Bootstrap
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
+
+#for attaching images
 gem "paperclip", "~> 4.3"
+
+#for Heroku
 gem 'rails_12factor', group: :production
 ruby "2.2.0"

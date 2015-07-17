@@ -23816,3 +23816,601 @@ Processing by PhotographyController#index as HTML
   [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
   Rendered layouts/_nav.html.erb (2.2ms)
 Completed 200 OK in 128ms (Views: 127.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-16 23:05:28 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (3.9ms)
+Completed 200 OK in 175ms (Views: 172.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2015-07-16 23:05:31 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 135ms (Views: 133.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/code/index" for 127.0.0.1 at 2015-07-16 23:05:35 -0700
+Processing by CodeController#index as HTML
+  Rendered code/index.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 199ms (Views: 197.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/photography/index" for 127.0.0.1 at 2015-07-16 23:05:42 -0700
+Processing by PhotographyController#index as HTML
+  Rendered photography/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 143ms (Views: 141.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-07-16 23:05:47 -0700
+
+
+Started GET "/contact/index" for 127.0.0.1 at 2015-07-16 23:06:03 -0700
+Processing by ContactController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered contact/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.8ms)
+Completed 200 OK in 125ms (Views: 123.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2015-07-16 23:06:05 -0700
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered devise/registrations/edit.html.erb within layouts/application (26.2ms)
+  Rendered layouts/_nav.html.erb (0.8ms)
+Completed 200 OK in 144ms (Views: 141.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-16 23:06:08 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (2.0ms)
+Completed 200 OK in 156ms (Views: 155.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2015-07-16 23:06:09 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.3ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 125ms (Views: 123.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/code/index" for 127.0.0.1 at 2015-07-16 23:10:48 -0700
+Processing by CodeController#index as HTML
+  Rendered code/index.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (2.0ms)
+Completed 200 OK in 122ms (Views: 121.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/photography/index" for 127.0.0.1 at 2015-07-16 23:12:52 -0700
+Processing by PhotographyController#index as HTML
+  Rendered photography/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (2.0ms)
+Completed 200 OK in 120ms (Views: 119.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2015-07-16 23:13:36 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (2.0ms)
+Completed 200 OK in 154ms (Views: 153.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/code.css?body=1" for 127.0.0.1 at 2015-07-16 23:13:38 -0700
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2015-07-16 23:13:38 -0700
+
+
+Started GET "/assets/customCSS.css?body=1" for 127.0.0.1 at 2015-07-16 23:13:38 -0700
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2015-07-16 23:13:38 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-16 23:13:38 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-16 23:13:38 -0700
+
+
+Started GET "/assets/photography.css?body=1" for 127.0.0.1 at 2015-07-16 23:13:38 -0700
+
+
+Started GET "/photography/index" for 127.0.0.1 at 2015-07-16 23:16:04 -0700
+Processing by PhotographyController#index as HTML
+  Rendered photography/index.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 163ms (Views: 162.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/photography/index" for 127.0.0.1 at 2015-07-16 23:16:08 -0700
+Processing by PhotographyController#index as HTML
+  Rendered photography/index.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (2.0ms)
+Completed 200 OK in 131ms (Views: 130.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/code/index" for 127.0.0.1 at 2015-07-16 23:16:31 -0700
+Processing by CodeController#index as HTML
+  Rendered code/index.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 122ms (Views: 121.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2015-07-16 23:16:43 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 156ms (Views: 155.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-16 23:16:56 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 127ms (Views: 126.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2015-07-16 23:20:14 -0700
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered devise/registrations/edit.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_nav.html.erb (1.3ms)
+Completed 200 OK in 121ms (Views: 119.5ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"VP9UJWj1G4UbniHop0yPIMnypepbjTzyvhgZ+qUk8hs="}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 8ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_nav.html.erb (7.0ms)
+Completed 200 OK in 140ms (Views: 139.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/customCSS.css?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/code.css?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/photography.css?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/code.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/photography.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-16 23:20:36 -0700
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-07-16 23:20:37 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_nav.html.erb (0.9ms)
+Completed 200 OK in 135ms (Views: 130.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_nav.html.erb (0.9ms)
+Completed 200 OK in 131ms (Views: 129.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/code.css?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/photography.css?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/customCSS.css?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/code.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/photography.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:42 -0700
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-07-16 23:21:45 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_nav.html.erb (1.2ms)
+Completed 200 OK in 140ms (Views: 139.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-07-16 23:21:47 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_nav.html.erb (0.9ms)
+Completed 200 OK in 174ms (Views: 173.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-07-16 23:21:54 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BzFeYoW6dx4NKzlYo2Q2ecBb87ZTrfXS1JEpX+cTwdM=", "user"=>{"email"=>"mii756@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (8.9ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'mii756@gmail.com'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (5.7ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = 1[0m  [["current_sign_in_at", "2015-07-17 06:21:54.839023"], ["last_sign_in_at", "2015-07-17 00:04:38.044606"], ["sign_in_count", 11], ["updated_at", "2015-07-17 06:21:54.840732"]]
+  [1m[35m (1.6ms)[0m  COMMIT
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 110ms (ActiveRecord: 16.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-16 23:21:54 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (2.2ms)
+Completed 200 OK in 152ms (Views: 150.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/code.css?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/photography.css?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/customCSS.css?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/code.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/photography.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-16 23:21:55 -0700
+
+
+Started GET "/about/index" for 127.0.0.1 at 2015-07-16 23:25:14 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (2.0ms)
+Completed 200 OK in 134ms (Views: 132.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/profile.jpg" for 127.0.0.1 at 2015-07-16 23:25:14 -0700
+
+
+Started GET "/about/index" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 154ms (Views: 153.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/code.css?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/customCSS.css?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/photography.css?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/code.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/photography.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
+
+
+Started GET "/assets/profile.jpg" for 127.0.0.1 at 2015-07-16 23:25:21 -0700
