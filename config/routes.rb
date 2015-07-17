@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'contact/index'
+
+  get 'photography/index'
+
+  get 'code/index'
+
   get 'about/index'
 
   devise_for :users
@@ -7,6 +13,9 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'welcome#index'
+
+  get "code/download"
+  get "code/download_journal"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

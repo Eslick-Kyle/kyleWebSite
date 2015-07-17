@@ -56,3 +56,12 @@ body {
   opacity: 0.6;
   transition: opacity ease 0.5s;
 } 
+
+.bg-info {
+  border-radius: 5px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+.img-responsive {
+  max-height: 90%;
+}
