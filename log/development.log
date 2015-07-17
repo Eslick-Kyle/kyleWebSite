@@ -23808,3 +23808,11 @@ Processing by ContactController#index as HTML
   Rendered contact/index.html.erb within layouts/application (0.0ms)
   Rendered layouts/_nav.html.erb (0.9ms)
 Completed 200 OK in 155ms (Views: 153.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/photography/index" for 127.0.0.1 at 2015-07-16 21:33:03 -0700
+Processing by PhotographyController#index as HTML
+  Rendered photography/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (2.2ms)
+Completed 200 OK in 128ms (Views: 127.2ms | ActiveRecord: 0.6ms)
