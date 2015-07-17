@@ -22619,3 +22619,164 @@ Started GET "/assets/photos/weed.jpg" for 127.0.0.1 at 2015-07-16 20:45:18 -0700
 
 
 Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-07-16 20:45:20 -0700
+
+
+Started GET "/photography/index" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+Processing by PhotographyController#index as HTML
+  Rendered photography/index.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (3.1ms)
+Completed 200 OK in 143ms (Views: 142.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/code.css?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/customCSS.css?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photography.css?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/code.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photography.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photos/shane1.jpg" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photos/shane2.jpg" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photos/shane3.jpg" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photos/window.jpg" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photos/shane5.jpg" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photos/shane6.jpg" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photos/shane4.jpg" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photos/xp.jpg" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photos/ring.jpg" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photos/kitten.jpg" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photos/sculpture.jpg" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photos/sunset.jpg" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photos/waterfall.jpg" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photos/weed.jpg" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photos/fence.jpg" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photos/bros.jpg" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photos/chuck.jpg" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photos/bridge.jpg" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photos/art.jpg" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photos/flower.jpg" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/photos/teton.jpg" for 127.0.0.1 at 2015-07-16 20:48:55 -0700
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-07-16 20:49:01 -0700
